@@ -17,15 +17,17 @@ main {
     width: 100%;
 }
 
+.container {
+    display: grid; 
+    grid-template-columns: 500px 200px; 
+    gap: 5px 5px; 
+}
+
 aside {
-    float: right;
-    width: 100px;
 
 }
 
 section {
-    float: left;
-    width: 300px;
 
 }
 
